@@ -16,34 +16,26 @@ It might be skill issue, but i couldnt fiund any solution for this problem, so, 
 It will save the structure in a .txt file called "estrutura_(your file name).txt"
 Output example:
 ```
-Processing file: YourFile.json
+Processing file: 630275941520498.json
 ballPosition - (array)
-    ... (more elements)
 playerTracking - (object)
     people - (array)
         centerOfMass - (array)
-            ... (more elements)
         heightOfGround - (float)
         jerseyNumber - (str)
         jointIds - (array)
-            ... (more elements)
         positions - (array)
-            ... (more elements)
         roleId - (int)
         skeletonType - (str)
         teamId - (int)
         trackId - (int)
-        ... (more elements)
     roles - (array)
         name - (str)
-        ... (more elements)
     skeletons - (object)
         COCO - (object)
             connections - (array)
-                ... (more elements)
     teams - (array)
         name - (str)
-        ... (more elements)
 time - (int)
 version - (int)
 ```
