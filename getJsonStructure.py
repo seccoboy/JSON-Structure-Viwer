@@ -32,10 +32,10 @@ def get_unique_structure(data, parent_keys=None, processed=None, output_file=Non
                         get_unique_structure(value[0], parent_keys + [key], processed, output_file)
                         # Indicate if there are more elements
                         if len(value) > 1:
-                            more_elements_tuple = path_tuple + ('... (more elements)',)
+                            more_elements_tuple = path_tuple #+ ('... (more elements)',)
                             if more_elements_tuple not in processed:
                                 indent_more = '    ' * (len(parent_keys) + 1)
-                                print(f"{indent_more}... (more elements)", file=output_file)
+                                #print(f"{indent_more}... (more elements)", file=output_file)
                                 processed.add(more_elements_tuple)
                 else:
                     # It's a dictionary, print key and recurse
