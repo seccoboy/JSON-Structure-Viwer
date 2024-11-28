@@ -34,7 +34,7 @@ def get_unique_structure(data, parent_keys=None, processed=None, output_file=Non
                         if len(value) > 1:
                             more_elements_tuple = path_tuple + ('... (more elements)',)
                             if more_elements_tuple not in processed:
-                                indent_more = '\t' * (len(parent_keys) + 1)
+                                #indent_more = '\t' * (len(parent_keys) + 1)
                                 #print(f"{indent_more}... (more elements)", file=output_file)
                                 processed.add(more_elements_tuple)
                 else:
@@ -55,7 +55,7 @@ def get_unique_structure(data, parent_keys=None, processed=None, output_file=Non
             if len(data) > 1:
                 more_elements_tuple = key_path + ('... (more elements)',)
                 if more_elements_tuple not in processed:
-                    indent_more = '\t' * len(parent_keys)
+                    #indent_more = '\t' * len(parent_keys)
                     #print(f"{indent_more}... (more elements)", file=output_file)
                     processed.add(more_elements_tuple)
     elif isinstance(data, (str, int, float, bool, type(None))):
