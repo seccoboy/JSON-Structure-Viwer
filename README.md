@@ -1,5 +1,5 @@
 # JSON-Structure-Viwer
-A Python code for visualizing JSON's files structures
+A Python code for visualizing JSON's structures
 
 To use it: 
 
@@ -10,8 +10,7 @@ Or, you can pass the file as parameter ex:
 py.exe .\getJsonStructure.py '.\YourJSONs\YourFile.json'
 ```
 
-
-It might be skill issue, but i couldnt fiund any solution for this problem, so, I wrote my own.
+It might be skill issue, but i couldnt find any solution for this problem, so I wrote my own.
 
 It will save the structure in a .txt file called "estrutura_(your file name).txt"
 Output example:
